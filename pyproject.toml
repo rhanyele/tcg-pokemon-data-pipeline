@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pokemon-tcg"
+version = "0.1.0"
+description = ""
+authors = ["Rhanyele Marinho <rhany.marinho@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+minio = "^7.2.7"
+requests = "^2.31.0"
+pandas = "^2.2.2"
+pyarrow = "^16.0.0"
+pydantic = "^2.7.1"
+logging = "^0.4.9.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
